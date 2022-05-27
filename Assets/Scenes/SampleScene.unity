@@ -268,8 +268,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 293963044}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0, z: 0}
-  m_LocalScale: {x: 2.23147, y: 2.23147, z: -1}
+  m_LocalPosition: {x: -0.0176, y: 0, z: 0}
+  m_LocalScale: {x: 2.26, y: 2.23147, z: -1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -372,7 +372,7 @@ GameObject:
   - component: {fileID: 589446133}
   m_Layer: 0
   m_Name: paredesquerda
-  m_TagString: Untagged
+  m_TagString: paredesquerda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -385,8 +385,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 589446130}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.1279, y: 0.0969, z: -0.013145715}
-  m_LocalScale: {x: 0.15093903, y: 9.371841, z: 1}
+  m_LocalPosition: {x: -10.418, y: 0.102, z: -0.013145715}
+  m_LocalScale: {x: 0.15093903, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 28530825}
@@ -482,8 +482,8 @@ GameObject:
   - component: {fileID: 636950965}
   - component: {fileID: 636950966}
   m_Layer: 0
-  m_Name: paredecima
-  m_TagString: Untagged
+  m_Name: paredebaixo
+  m_TagString: paredebaixo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -496,7 +496,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 636950963}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.942699, y: -4.708, z: -0.013145715}
+  m_LocalPosition: {x: 1, y: -5.07, z: -0.013145715}
   m_LocalScale: {x: 22.2289, y: 0.32349256, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -594,7 +594,7 @@ GameObject:
   - component: {fileID: 953040905}
   m_Layer: 0
   m_Name: parededireita
-  m_TagString: Untagged
+  m_TagString: parededireita
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -607,8 +607,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 953040902}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.0073, y: 0.13582867, z: -0.013145715}
-  m_LocalScale: {x: 0.14762056, y: 9.388586, z: 1}
+  m_LocalPosition: {x: 12.301, y: 0.1, z: -0.013145715}
+  m_LocalScale: {x: 0.14762056, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 28530825}
@@ -704,8 +704,8 @@ GameObject:
   - component: {fileID: 1151287036}
   - component: {fileID: 1151287037}
   m_Layer: 0
-  m_Name: paredebaixo
-  m_TagString: Untagged
+  m_Name: paredecima
+  m_TagString: paredecima
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -718,7 +718,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1151287034}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.9458, y: 4.9158287, z: -0.013145715}
+  m_LocalPosition: {x: 0.942, y: 5.262, z: -0.013145715}
   m_LocalScale: {x: 22.234741, y: 0.3153155, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -817,7 +817,7 @@ GameObject:
   - component: {fileID: 1246898188}
   m_Layer: 0
   m_Name: raqueteA
-  m_TagString: Untagged
+  m_TagString: Raquetes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -901,6 +901,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba92d8ea8130e4b9aca73486641dfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  axis: Vertical
+  player2: 0
+  player1: 0
 --- !u!61 &1246898188
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -941,7 +944,7 @@ GameObject:
   - component: {fileID: 1301805930}
   m_Layer: 0
   m_Name: raqueteB
-  m_TagString: Untagged
+  m_TagString: Raquetes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1025,6 +1028,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bba92d8ea8130e4b9aca73486641dfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  axis: Vertical2
+  player2: 0
+  player1: 0
 --- !u!61 &1301805930
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1153,7 +1159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -100, y: 321.6297}
+  m_AnchoredPosition: {x: -100, y: 348.9}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1629739526
@@ -1178,8 +1184,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1203,7 +1209,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.75
+  m_fontSize: 49.1
   m_fontSizeBase: 90
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1389,6 +1395,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1c2eb2920a89a94faee6cf1ba9fb7c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 1629739526}
+  player2: {fileID: 1738205461}
 --- !u!1 &1738205459
 GameObject:
   m_ObjectHideFlags: 0
@@ -1424,7 +1432,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.28183332, y: 0.86048156}
   m_AnchorMax: {x: 0.28183332, y: 0.86048156}
-  m_AnchoredPosition: {x: 689.9, y: 11.002991}
+  m_AnchoredPosition: {x: 689.9, y: 38.27295}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1738205461
@@ -1449,8 +1457,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1474,7 +1482,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.75
+  m_fontSize: 49.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
